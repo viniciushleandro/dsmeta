@@ -1,5 +1,5 @@
-import NotificationButton from '../NotificationButton'
-import './styles.css'
+import NotificationButton from '../NotificationButton';
+import './styles.css';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { useState } from 'react';
@@ -9,8 +9,8 @@ function SalesCard() {
     const max = new Date();
     const min = new Date(new Date().setDate(new Date().getDate() - 365));
 
-    const [minDate, setMinDate] = useState(min);;
-    const [maxDate, setMaxDate] = useState(max);;
+    const [minDate, setMinDate] = useState(min);
+    const [maxDate, setMaxDate] = useState(max);
 
     return (
         <div className="dsmeta-card">
