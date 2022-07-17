@@ -23,10 +23,10 @@ public class Sale {
 	
 	public Sale() {}
 
-	public Sale(Long id, String sallerName, Integer visited, Integer deals, Double amount, LocalDate date) {
+	public Sale(Long id, String sellerName, Integer visited, Integer deals, Double amount, LocalDate date) {
 		super();
 		this.id = id;
-		this.sellerName = sallerName;
+		this.sellerName = sellerName;
 		this.visited = visited;
 		this.deals = deals;
 		this.amount = amount;
@@ -41,11 +41,11 @@ public class Sale {
 		this.id = id;
 	}
 
-	public String getSallerName() {
+	public String getSellerName() {
 		return sellerName;
 	}
 
-	public void setSallerName(String sallerName) {
+	public void setSellerName(String sallerName) {
 		this.sellerName = sallerName;
 	}
 
