@@ -45,8 +45,8 @@ public class Sale {
 		return sellerName;
 	}
 
-	public void setSellerName(String sallerName) {
-		this.sellerName = sallerName;
+	public void setSellerName(String sellerName) {
+		this.sellerName = sellerName;
 	}
 
 	public Integer getVisited() {
